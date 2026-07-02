@@ -1,16 +1,134 @@
-# React + Vite
+# 📚 Book Authors Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive React CRUD application for managing books and their authors. Users can add, view, edit, and delete book records with real-time updates using Redux Toolkit and Axios.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Netlify:** https://book-authors.netlify.app/
 
-## React Compiler
+## 📂 GitHub Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Repository:** https://github.com/NirmalJBehanan/book-authors
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 📖 Add new books
+- 👤 Store author information
+- ✏️ Edit existing book details
+- 🗑️ Delete books
+- 📋 View all books in responsive cards
+- ✅ Form validation using Formik & Yup
+- 🔄 State management using Redux Toolkit
+- 🌐 API integration with Axios
+- 📱 Responsive design
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- Redux Toolkit
+- Axios
+- Formik
+- Yup
+- CSS3
+- MockAPI
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── Popup.jsx
+│   └── Boooks.jsx
+│
+├── pages/
+│   ├── Index.jsx
+│   └── Details.jsx
+│
+├── slice/
+│   └── counterSlice.js
+│
+├── assets/
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/NirmalJBehanan/book-authors.git
+```
+
+Navigate to the project
+
+```bash
+cd book-authors
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📸 Application Preview
+
+Visit the live application:
+
+https://book-authors.netlify.app/
+
+---
+
+## 📌 CRUD Operations
+
+- Create Book
+- Read Books
+- Update Book
+- Delete Book
+
+---
+
+## 📖 Learning Outcomes
+
+This project demonstrates:
+
+- React Functional Components
+- React Hooks
+- Redux Toolkit
+- API Integration
+- Form Validation
+- CRUD Operations
+- Responsive UI Design
+
+---
+
+## 👨‍💻 Author
+
+**Nirmal J Behanan**
+
+GitHub: https://github.com/NirmalJBehanan
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a ⭐ on GitHub.
