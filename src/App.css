@@ -1,0 +1,196 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-image: url('./assets/background/back.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  min-height: 100vh;
+}
+
+
+
+.container h1{
+  background-color: aliceblue;
+  display: inline-flex;
+  padding: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 20px; 
+}
+.container button{
+  background-color: aliceblue;
+  display: block;
+  padding: 12px;
+  margin-left: 10px;
+  margin-top: 20px;
+  border-radius: 20px; 
+  
+}
+
+form input,label{
+ 
+  padding: 10px;
+  margin: 3px;
+  border-radius: 5px;
+
+  
+}
+form input{
+  width: 100%;
+}
+form label{
+  margin: 0%;
+  padding: 0%;
+  margin-left: 5px;
+}
+form h3{
+  text-align: center;
+}
+form{
+   background-color: white;
+  width: 400px;
+  max-width: 90%;
+  border-radius: 20px;
+  padding: 30px;
+  
+  
+}
+.container-2{
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(0, 0, 0, 0.5); /* Optional dark overlay */
+}
+.close{
+  margin-left: 100%;
+}
+textarea{
+  padding: 10px;
+  margin: 3px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+.container-5 {
+ min-height: 350px;
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.container-5 h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.container-5 h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.container-5 p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+
+.container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+.edbuttons{
+  display: flex;
+  
+}
+
+
+.container-6 {
+  width: 400px;
+  min-height: 350px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background: white;
+}
+.container-6 label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.container-6 input,
+.container-6 textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .container-5,
+  .container-6,
+  form {
+    width: 90%;
+  }
+
+  .container h1 {
+    margin-left: 10px;
+  }
+
+  .container button {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container h1 {
+    display: block;
+    width: calc(100% - 20px);
+    text-align: center;
+    margin: 10px;
+  }
+
+  .container button {
+    width: calc(100% - 20px);
+    margin: 10px;
+  }
+
+  .container-5,
+  .container-6,
+  form {
+    width: 95%;
+    margin: 15px auto;
+    padding: 15px;
+  }
+
+  .edbuttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .edbuttons button {
+    width: 100%;
+    margin: 0;
+  }
+}
