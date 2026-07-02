@@ -75,7 +75,7 @@ form{
   justify-content: center;
   align-items: center;
 
-  background-color: rgba(0, 0, 0, 0.5); /* Optional dark overlay */
+  background-color: rgba(0, 0, 0, 0.5); 
 }
 .close{
   margin-left: 100%;
